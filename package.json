@@ -10,13 +10,16 @@
     "test": "node ./test"
   },
   "repository": {
-	  "type": "git",
-	  "url": "git://github.com/agraddy/agraddy.async.waterfall.git"
+    "type": "git",
+    "url": "git://github.com/agraddy/agraddy.async.waterfall.git"
   },
   "bugs": {
-	  "url": "https://github.com/agraddy/agraddy.async.waterfall/issues"
+    "url": "https://github.com/agraddy/agraddy.async.waterfall/issues"
   },
   "devDependencies": {
-	  "agraddy.test.tap": "^0.2.0"
+    "agraddy.test.tap": "^0.2.0"
+  },
+  "dependencies": {
+    "setimmediate": "^1.0.5"
   }
 }
